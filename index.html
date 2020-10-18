@@ -51,20 +51,22 @@ body::before {
       overflow-x: hidden;
     }
 
-.menubar {
-  display: flex;
-  justify-content: 20px;
-  align-items: center;
-  height: 30px;
-  margin: 40px;
-  left: 10px
+a {
+  position: absolute;
+width: 450px;
+height: 35px;
+left: 400px;
+top: 37px;
+
+font-family: PT Root UI;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 35px;
+
+color: #A22C2F;
 }
 
-.menubar a {
-  font-style: PT Root UI;
-  font-weight: bold
-}
-}
     section {
       display: flex;
       justify-content: space-between;
@@ -151,7 +153,6 @@ border-top: 1px solid #bbb;
 
 <body>
 
-  <div class="menubar">
     <a id=1 #href="#">PT Root UI</a>
     <a id=2 href="#">PT Root UI в приборной панели самолёта</a>
     <a id=3 href="#">Глифы</a>
@@ -173,33 +174,39 @@ border-top: 1px solid #bbb;
 </div>
   </section>
   </div>
-  <div class="okno">
-  <img src="images/окно.svg" alt="">
-  </div>
 
+  <section>
+  <div class="okno">
+  <img src="images/окно.svg" alt="okno">
+  </div>
+</section>
 
   <section>
       <h1>PT Root UI в приборной панели <br> самолёта </h1>
-  <div><img src="images/about 2.png" alt=""></div>
-  <div class="">
-  <h1>PT Root UI в приборной панели <br> самолёта </h1>
-  </div>
+  <div><img src="images/about 2.png"></div>
   </section>
 
   <section>
     <div>
-  <h1>Реальный проект, реальный рабочий процесс</h1>
-  <p>Обучение приближено к работе в реальной жизни, работа разбита на этапы от типографики, создания меню и использования эффектов, до адаптации под мобильные устройства и использования JavaScript скриптов</p>
-  </div>
-  <div><img src="images/about 3.png" alt=""></div>
-  </section>
+    <img src="images/панель 2-02.svg">
+      <img src="images/панель 3-03.svg">
+        <img src="images/панель 4-04.svg">
 
-  <div class="bottom_block">
-    <h1>Возможность самостоятельного <br> и курируемого обучения</h1>
-    <p>Вы можете обучаться самостоятельно по исходному коду проекта, выложенному на GitHub, или записаться на курс "Основы <br> веб-вёрстки" в Школе Дизайна НИУ ВШЭ</p>
-    <a class="btn" href="#">Исходный код на Github</a>
-    <a class="btn btn-black" href="#">Курс в Школе Дизайна</a>
+  <p>PT Root UI — современный закрытый гротеск с фиксированной <br>
+шириной знаков в различных начертаниях (Uniwidth). <br>
+Эта особенность позволяет переключаться <br>
+между начертаниями без изменения длины строки, <br>
+что особенно удобно для заголовков, строки меню <br>
+и элементов интерфейса. </p>
+
+
+  <p>Шрифт поддерживает множество языков, использующих <br>
+латиницу и кириллицу (включая азиатскую) и содержит <br>
+варианты цифр и валют, дроби и индексы, а также целый ряд <br>
+навигационных элементов и альтернативных форм знаков. </p>
+
   </div>
+  </section>
 
   </body>
   </html>
