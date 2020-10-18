@@ -51,6 +51,20 @@ body::before {
       overflow-x: hidden;
     }
 
+.menubar {
+  display: flex;
+  justify-content: 20px;
+  align-items: center;
+  height: 30px;
+  margin: 40px;
+  left: 10px
+}
+
+.menubar a {
+  font-style: PT Root UI;
+  font-weight: bold
+}
+}
     section {
       display: flex;
       justify-content: space-between;
@@ -60,6 +74,7 @@ body::before {
     }
 
     section div {
+      position: relative;
       width: 60%;
       height: 30%;
       padding-left:460px;
@@ -135,6 +150,13 @@ border-top: 1px solid #bbb;
   </style>
 
 <body>
+
+  <div class="menubar">
+    <a id=1 #href="#">PT Root UI</a>
+    <a id=2 href="#">PT Root UI в приборной панели самолёта</a>
+    <a id=3 href="#">Глифы</a>
+</div>
+
 <section>
     <div class="1">
     <h1>PT Root UI <br> в авиации</h1>
