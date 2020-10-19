@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="author" content="">
-    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
     <title></title>
     <style media="screen">
+
       @font-face {
      font-family: PT Root UI; /"fonts/Pt Root UI_Bold.TrueType"/
      src: url(fonts/PT Root UI_Bold.ttf); /"fonts/PT Root UI_Bold.TrueType"/
@@ -18,114 +20,159 @@
       font-family: PT Root UI, "PT Root UI", regular
     }
 
-      body {
-      width: 1280px;
-      margin: 0 auto;
-      background: #F5F5F5;
-      height: 3849px;
-      display: block;
-    position: relative;
-    }
-
-
-body::before {
-  content: "";
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  top: 0;
-  right: 0;
-  background: url("images/maket.jpg");
-  height: 3849px;
-  width: 1280px;
-  display: block;
-  opacity: .2;
-  overflow-x: hidden;
-}
-    html {
-      width: 100%;
-      max-width: 100%;
-      background: #F5F5F5;
+    body {
+        width: 1280px;
+        margin: 0 auto;
+        background: #F5F5F5;
+        height: 3849px;
+        display: block;
       position: relative;
-      height: 100%;
+      max-width: 100%
       overflow-x: hidden;
-    }
+      }
 
-a {
-  position: absolute;
-width: 450px;
-height: 35px;
-left: 400px;
+
+  body::before {
+    content: "";
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: url("images/maket.jpg");
+    height: 3849px;
+    width: 1280px;
+    display: block;
+    opacity: .2;
+
+  }
+
+      html {
+        width: 100%;
+        max-width: 100%;
+        background: #F5F5F5;
+        position: relative;
+        height: 100%;
+        overflow-x: hidden;
+      }
+
+    .head1 a {
+text-decoration: none;
+position: absolute;
+width: 200px;
+height: 37px;
+left: 92px;
 top: 37px;
-
 font-family: PT Root UI;
-font-style: normal;
 font-weight: bold;
-font-size: 22px;
-line-height: 35px;
-
+font-size: 26px;
 color: #A22C2F;
-}
-
-    section {
-      display: flex;
-      justify-content: space-between;
-      padding-top: 150px;
-      left: 100px;
-      right: 200px
     }
 
-    section div {
-      position: relative;
-      width: 60%;
-      height: 30%;
-      padding-left:460px;
-    }
-
-    section div {
-      width: 800px;
-      height: 100px;
-      margin: 0 auto;
-      left: 100px;
-      right: 80px;
-    }
-section div::after {
-
+.head2 a {
+text-decoration: none;
+position: absolute;
+width: 500px;
+height: 37px;
+left: 239px;
+top: 37px;
+font-family: PT Root UI;
+font-weight: regular;
+font-size: 26px;
+color: #07060E;
 }
 
-section h1,
-.bottom_block h1 {
-  font-size: 62px;
-margin-top: 20px;
-margin-bottom: 80px;
+.head3 a{
+  text-decoration: none;
+  position: absolute;
+  width: 300px;
+  height: 37px;
+  left: 760px;
+  top: 37px;
+  font-family: PT Root UI;
+  font-weight: regular;
+  font-size: 26px;
+ color: #07060E;
 }
 
-section p,
-.bottom_block p {
+.ptroothead1 p{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    left:480px;
+    top: 120px;
+    font-family: PT Root UI;
+    font-weight: bold;
+    font-size: 62px;
+    color: #07060E;
+}
+
+.illustone {
+  position: absolute;
+width: 308px;
+height: 141.74px;
+left: 915px;
+top: 179px;
+}
+
+.absac1 {
+  position: absolute;
+  width: 900px;
+  height: 10px;
+  left: 260px;
+  top: 340px;
   font-size: 28px;
-  line-height: 38px;
+ color: #07060E;
 }
 
-/* section div:nth-of-type(2) {
-  padding-left: 40px;
-} */
-
-section div:nth-last-of-type(2) h1
-section div:nth-last-of-type(2) p {
-  margin-left:4px;
+.illusttwo {
+  position: absolute;
+  width: 150.59px;
+  height: 146.36px;
+  left: 100px;
+  top: 500px;
 }
 
-section div:nth-last-of-type(2) h1 {
-  margin-top: 20px;
-  margin-bottom: 38px;
+.ptroothead2 {
+  position: absolute;
+  width: 1200px;
+  height: 200px;
+  left: 310px;
+  top: 680px;
+  font-weight: bold;
+  font-size: 58px;
+  color: #07060E;
 }
 
-section div:
-.bottom_block p,
-.bottom_block h1 {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+.blackthing {
+  position: absolute;
+width: 1280px;
+height: 1090px;
+top: 1200px;
+}
+
+.dashboard1 {
+  position: absolute;
+  width: 642.27px;
+  height: 392.21px;
+  left: 30px;
+top: 1200px;
+}
+
+.dashboardcentral {
+  position: absolute;
+width: 903px;
+height: 552px;
+left: 400px;
+top: 1130px;
+}
+
+.dashboard3 {
+  position: absolute;
+  width: 642.27px;
+  height: 392.21px;
+  left: 800px;
+top: 900px;
 }
 
 .bottom_block {
@@ -149,64 +196,34 @@ border-top: 1px solid #bbb;
     border-color: black;
     padding: 15px 69px;
   }
-  </style>
+</style>
+</head>
 
 <body>
+  <section>
+<div class="head1"><a href="index.html">PT Root UI </a></div>
+<div class="head2"><a href="s1">PT Root UI в приборной панели самолёта</a></div>
+<div class="head3"><a href="s2">Глифы</a></div>
 
-    <a id=1 #href="#">PT Root UI</a>
-    <a id=2 href="#">PT Root UI в приборной панели самолёта</a>
-    <a id=3 href="#">Глифы</a>
-</div>
+</section>
 
 <section>
-    <div class="1">
-    <h1>PT Root UI <br> в авиации</h1>
-  </div>
-      </section>
-
-      <section>
-        <div>
-  <p>PT Root UI — самостоятельная линейка гарнитуры PT Root,<br>
+<div class="ptroothead1"><p>PT Root UI <br> в авиации</p></div>
+ <div class="illustone"> <img src="images/illust1.jpg"> </div>
+  <div class="absac1"> <p>PT Root UI — самостоятельная линейка гарнитуры PT Root,<br>
 содержащая четыре начертания нормальных пропорций,<br>
 от Light до Bold, предназначенных для чтения с экрана,<br>
 использования в интерфейсах, на веб-сайтах, а также пригодных<br>
-для навигации и ориентирования. </p>
-</div>
-  </section>
-  </div>
-
-  <section>
-  <div class="okno">
-  <img src="images/окно.svg" alt="okno">
-  </div>
+для навигации и ориентирования. </p></div>
+<div class="illusttwo"> <img src="images/illust2.jpg"> </div>
 </section>
 
-  <section>
-      <h1>PT Root UI в приборной панели <br> самолёта </h1>
-  <div><img src="images/about 2.png"></div>
-  </section>
+<div id=s1 class="ptroothead2"><p>PT Root UI в приборной панели<br> самолёта</p></div>
 
-  <section>
-    <div>
-    <img src="images/панель 2-02.svg">
-      <img src="images/панель 3-03.svg">
-        <img src="images/панель 4-04.svg">
-
-  <p>PT Root UI — современный закрытый гротеск с фиксированной <br>
-шириной знаков в различных начертаниях (Uniwidth). <br>
-Эта особенность позволяет переключаться <br>
-между начертаниями без изменения длины строки, <br>
-что особенно удобно для заголовков, строки меню <br>
-и элементов интерфейса. </p>
-
-
-  <p>Шрифт поддерживает множество языков, использующих <br>
-латиницу и кириллицу (включая азиатскую) и содержит <br>
-варианты цифр и валют, дроби и индексы, а также целый ряд <br>
-навигационных элементов и альтернативных форм знаков. </p>
-
-  </div>
-  </section>
+<div class="blackthing"> <img src="images/blackthing.jpg" alt="blackbackground" > </div>
+<div class="dashboard1"> <img src="images/панель вторая-02.jpg" alt="Фотография 2"> </div>
+<div class="dashboardcentral"> <img src="images/панель четвертая-04.jpg" alt="Фотография 3"> </div>
+<div class="dashboard3"> <img src="images/панель пятая-05.jpg" alt="Фотография 4"> </div>
 
   </body>
   </html>
