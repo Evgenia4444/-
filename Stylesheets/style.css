@@ -1,1 +1,4 @@
-  <img src="images/окно.svg" width="1280" alt="okno">
+@import "reset.css";
+@import "layout.css";
+@import "content.css";
+@import "sedebar.css"
